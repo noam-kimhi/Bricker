@@ -40,6 +40,18 @@ All buffs are visually indicated and time-bound, requiring players to react quic
 - 🎨 Custom Graphics: Distinct visuals for different power-ups and bricks.
 - 🔊 Sound: Sound effects for ball hits, drops, and game events.
 
+## 📁 Project Structure
+```
+Bricker/
+├── assets/                 # Game assets (images, sounds, etc.)
+├── src/bricker/            # Source code
+│   ├── brick_strategies/  # Collision and power-up strategies
+│   ├── gameobjects/       # Game objects (paddle, ball, bricks, etc.)
+│   ├── main/              # Game launcher and core logic
+├── README.md
+├── LICENSE
+```
+
 ## 🚀 Getting Started
 
 ### Prerequisites
